@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+i{
+    cursor: pointer;
+}
+
+#main{
+    user-select: none;
+    background-color: #84656B;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#mainContent{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+#mainContent h1{
+    width: 100%;
+    font-size: 8vw;
+    white-space: nowrap;
+    font-weight: 100;
+    line-height: 1;
+}
+
+#mainContent h3{
+    width: 100%;
+    font-size: 4vw;
+    white-space: nowrap;
+    font-weight: 100;
+    line-height: 1;
+}
+
+#left{
+    position: relative;
+    width: 45%;
+}
+
+#nav{
+    display: flex;
+    gap:50px;
+    padding: 35px 0px 0px 30px;
+    text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+}
+
+#nav h3{
+    letter-spacing: 2px;
+    color: white;
+}
+
+#leftImg{
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#leftcontent{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    bottom: -40%;
+    color: white;
+}
+
+#leftcontent #titel{
+    line-height: 20px;
+    width: 30%;
+}
+
+#leftcontent #para{
+    line-height: 18px;
+    font-size: 12px;
+    width: 70%;
+}
+
+#scroll {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    transform-origin: 0% 50%;
+    gap: 20px;
+    transform: rotate(-90deg);
+}
+
+#scroll h4{
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#scroll #line {
+    background-color: #fff;
+    width: 150px;
+    height: 2px;
+}
+
+#center{
+    width: 45%;
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    position: relative;
+}
+
+#card{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    display: flex;
+    right: -18%;
+    bottom: 5%;
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover
+}
+
+#cardIcon{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 100%;
+    width: 30%;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+    width: 10%;
+    padding: 20px 0px 20px 50px;
+}
+
+#right i{
+    color: white;
+    font-size: 20px;
+}
+
+#right #content{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#right a{
+    text-decoration: none;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+#right a:hover{
+    text-decoration: underline;
+}
